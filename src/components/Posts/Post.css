@@ -1,0 +1,36 @@
+.post {
+  background-color: rgb(160, 96, 96);
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-left: auto;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  max-width: 60%;
+  gap: 20px;
+  word-break: break-all;
+}
+
+.post_text {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.post_avatar {
+  width: 50px;
+  text-align: center;
+  font-size: 2rem;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+.current_user {
+  background-color: wheat;
+  color: black;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: left;
+  margin-left: 0;
+  margin-right: auto;
+}

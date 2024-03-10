@@ -1,0 +1,24 @@
+.user {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  min-width: 200px;
+  text-align: left;
+  padding: 10px 20px;
+  color: black;
+  outline: none;
+  border: none;
+  font-size: 2rem;
+  transition: 0.1s ease-in;
+  background-color: rgb(67, 67, 67);
+}
+.user_avatar {
+  width: 100px;
+  aspect-ratio: 1/1;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+.user:hover {
+  cursor: pointer;
+  background-color: rgb(109, 109, 109);
+}

@@ -1,0 +1,11 @@
+.posts_container {
+  scroll-behavior: smooth;
+  flex: 1;
+  height: 600px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px solid white;
+  padding: 10px;
+}

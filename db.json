@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "name": "Ann",
+      "avatar": "/avatar1.jpg",
+      "id": "0"
+    },
+    {
+      "name": "Dan",
+      "avatar": "/avatar2.jpg",
+      "id": "1"
+    },
+    {
+      "name": "Ben",
+      "avatar": "/avatar3.jpg",
+      "id": "2"
+    }
+  ],
+  "posts": [
+    {
+      "id": "0",
+      "text": "Hello, I'm Ann",
+      "userId": 0
+    },
+    {
+      "id": "1",
+      "text": "Hello, I'm Dan)",
+      "userId": 1
+    },
+    {
+      "id": "2",
+      "text": "Where I am?",
+      "userId": 1
+    },
+    {
+      "id": "3",
+      "text": "Don't know (TT_TT)",
+      "userId": 2
+    }
+  ]
+}
