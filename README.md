@@ -9,7 +9,7 @@
 
 ### **Start JSON-server**
 
-1. _Start server using `yarn db` command_
+1. _Start server using the `yarn db` command_
 
 ### **Technology stack:**
 
