@@ -11,6 +11,15 @@
 
 1. _Start server using `yarn db` command_
 
+---
+
+ <details><summary><b>Screenshots</b></summary>    
+  
+<h3>Messenger</h3><img src="screenshots/messenger.png" ><hr>
+</details>
+
+---
+
 ### **Technology stack:**
 
 - _Vite_
