@@ -15,7 +15,7 @@
 
  <details><summary><b>Screenshots</b></summary>    
   
-<h3>Messenger</h3><img src="screenshots/messenger.png" ><hr>
+<h3>Messenger</h3><img src="screenshots/messenger.png" >
 </details>
 
 ---
