@@ -1,4 +1,4 @@
-# Messenger + Redux Toolkit
+# Messenger
 
 ### **Start app**
 
