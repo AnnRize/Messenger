@@ -16,7 +16,7 @@ export const AddPost = () => {
   return (
     <div className="add_post_container">
       <img
-        className="post_avatar add_post_avatar"
+        className="add_post_avatar"
         src={currentUser.avatar}
         alt=""
       />

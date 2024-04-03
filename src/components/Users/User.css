@@ -5,20 +5,39 @@
   min-width: 200px;
   text-align: left;
   padding: 10px 20px;
-  color: black;
+  color: var(--lightGreen);
   outline: none;
-  border: none;
   font-size: 2rem;
   transition: 0.1s ease-in;
-  background-color: rgb(67, 67, 67);
+  background: transparent;
+
+  border: 2px solid var(--lightGreen);
+  border-radius: 10px;
 }
 .user_avatar {
   width: 100px;
   aspect-ratio: 1/1;
-  border: 2px solid black;
+  /* border: 2px solid var(--lightGreen); */
   border-radius: 50px;
+  transition: 0.1s ease-in;
 }
 .user:hover {
   cursor: pointer;
-  background-color: rgb(109, 109, 109);
+  background-color: var(--lightGreen);
+  color: black;
+  box-shadow: inset 0 0 20px black;
+
+  .user_avatar {
+    box-shadow: 0 0 20px black;
+  }
+}
+
+.active {
+  background-color: var(--lightGreen);
+  color: black;
+  box-shadow: inset 0 0 20px black;
+
+  .user_avatar {
+    box-shadow: 0 0 20px black;
+  }
 }

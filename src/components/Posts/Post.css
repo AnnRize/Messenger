@@ -1,7 +1,7 @@
 .post {
-  background-color: rgb(160, 96, 96);
   padding: 5px 10px;
   border-radius: 20px;
+  border: 2px solid var(--lightGreen);
   margin-left: auto;
   display: flex;
   justify-content: end;
@@ -12,7 +12,7 @@
 }
 
 .post_text {
-  color: black;
+  color: var(--lightGreen);
   font-size: 1.2rem;
   font-weight: 500;
 }
@@ -21,16 +21,15 @@
   width: 50px;
   text-align: center;
   font-size: 2rem;
-  border: 2px solid black;
   border-radius: 50px;
+  box-shadow: 0 0 10px 3px var(--lightGreen);
 }
 
 .current_user {
-  background-color: wheat;
-  color: black;
   display: flex;
   flex-direction: row-reverse;
   justify-content: left;
   margin-left: 0;
   margin-right: auto;
+  /* background: linear-gradient(to right, var(--lightGreen) 10%, transparent 40%); */
 }
