@@ -18,3 +18,16 @@
 body {
   min-height: 100vh;
 }
+
+*::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 20px;
+  background: #242424;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: var(--lightGreen);
+  border-radius: 20px;
+}
